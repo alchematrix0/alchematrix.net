@@ -9,7 +9,7 @@ const IndexPage = ({ data }) => {
 
 	return (
 		<Layout>
-			<div className="columns">
+			<div className="columns is-multiline">
 				{edges.map(edge => {
 					const { frontmatter } = edge.node;
 					return (<Tile props={frontmatter} />)
