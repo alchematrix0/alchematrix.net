@@ -5,6 +5,7 @@ title: 'Making the ultimate bullet proof coffee'
 tags: ['recipe', 'coffee', 'routine', 'morning', 'food', 'nutrition']
 excerpt: 'There is no waking without a coffee this good'
 author: 'alchematrix0'
+class: 'blog'
 image: './bulletproof.jpg'
 ---
 #### Bulletproof Coffee

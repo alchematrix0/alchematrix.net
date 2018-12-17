@@ -10,34 +10,31 @@ const Template = ({ data, pageContext }) => {
 
 	return (
 		<Layout>
-			<h1>{title}</h1>
+			<h1 className="title">{title}</h1>
       <div>
         <em>{date}</em>
       </div>
       <br />
 			<div className="blogpost content" dangerouslySetInnerHTML={{ __html: html }} />
-      <p>
-				{prev && (
-					<Link to={prev.frontmatter.path}>
-						{prev.frontmatter.title}{' '}
-						<span role="img" aria-label="point-left">
-							👈{' '}
-						</span>
-						Previous
-					</Link>
-				)}
-			</p>
-			<p>
-				{next && (
-					<Link to={next.frontmatter.path}>
-						Next{' '}
-						<span role="img" aria-label="point-right">
-							👉
-						</span>
-						{next.frontmatter.title}
-					</Link>
-				)}
-			</p>
+      <div className="columns">
+	      <div className="column is-9">
+					{prev && (
+						<Link to={prev.frontmatter.path}>
+							<span role="img" aria-label="point-left">👈{'  '}</span>
+							<b>{prev.frontmatter.title}</b>
+						</Link>
+					)}
+				</div>
+	      <div className="column is-3 is-pulled-right">
+					{next && (
+						<Link to={next.frontmatter.path}>
+							<b>{next.frontmatter.title}{' '}</b>
+							<span role="img" aria-label="point-right">👉</span>
+						</Link>
+					)}
+				</div>
+
+			</div>
 		</Layout>
 	);
 };

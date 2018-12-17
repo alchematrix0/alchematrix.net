@@ -16,7 +16,13 @@ class Newsletter extends Component {
     let email = this.state.email
     if (email.length && email.includes('@') && email.includes('.')) {
       console.log(`got a valid email ${email}`)
-      fetch('/handleSignup', {email})
+      fetch('/mailchimp', {
+        method: 'POST',
+        body: JSON.stringify(email),
+        headers:{ 'Content-Type': 'application/json' }
+      }).then(res => res.json())
+      .then(response => console.log('Success:', JSON.stringify(response)))
+      .catch(error => console.error('Error:', error));
     } else {
       this.setState({invalidEmail: true})
     }
@@ -32,7 +38,7 @@ class Newsletter extends Component {
           </header>
           <section class="modal-card-body">
             <p>Learn the <b>alchemy of the matrix</b></p>
-            <p>Our newsletter is a <em>monthly subsciption</em> to the <b>best</b> resources for the spiritual scientist.</p>
+            <p>The newsletter is a <em>monthly subsciption</em> to the <b>best</b> resources for the spiritual scientist.</p>
             <p>Sign up below for consistently life altering content that will help you transmute the matrix and access your creative potential as a spiritual being having a human experience</p>
           </section>
           <footer class="modal-card-foot">

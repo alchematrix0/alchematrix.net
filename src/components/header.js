@@ -24,11 +24,9 @@ class Header extends Component {
         </div>
 
         <div className="navbar-end">
+          <a className="navbar-item" href='/about'>About</a>
           <div className="navbar-item">
             <div className="field is-grouped">
-              <p className="control">
-                <a href='/about'>About</a>
-              </p>
               <span className="social icon is-medium">
                 <FiYoutube />
               </span>
