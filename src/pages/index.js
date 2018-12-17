@@ -1,8 +1,8 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import Layout from '../components/layout'
-import Tile from '../components/tile'
+import Layout from "../components/layout"
+import Tile from "../components/tile"
 
 const IndexPage = ({ data }) => {
 	const { edges } = data.allMarkdownRemark;

@@ -49,4 +49,13 @@ Taken from https://bulma.io/documentation/overview/customize/
 @import "./custom.scss";
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-$family-sans-serif: "Nunito", sans-serif;
+// @font-face {
+//   font-family: "Nunito Sans";
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local("Nunito Sans Regular"), local("NunitoSans-Regular"),
+//        url("fonts/nunito-sans-v3-latin-regular.woff2") format("woff2"),
+//        url("fonts/nunito-sans-v3-latin-regular.woff") format("woff");
+// }
+$family-body: "Nunito";
+$family-sans-serif: "Nunito";

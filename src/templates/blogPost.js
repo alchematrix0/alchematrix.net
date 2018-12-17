@@ -15,7 +15,7 @@ const Template = ({ data, pageContext }) => {
         <em>{date}</em>
       </div>
       <br />
-			<div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} />
+			<div className="blogpost content" dangerouslySetInnerHTML={{ __html: html }} />
       <p>
 				{prev && (
 					<Link to={prev.frontmatter.path}>
