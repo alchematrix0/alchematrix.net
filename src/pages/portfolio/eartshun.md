@@ -5,7 +5,7 @@ title: 'Earthsun'
 subject: 'e-commerce website'
 class: 'work'
 excerpt: 'Earthsun produces a reef safe all natural sun screen and sells product online.'
-author: 'alchematrix0'
+author: 'md5'
 image: './earthsun-screen.png'
 ---
 #### Earthun - natural skin care

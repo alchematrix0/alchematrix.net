@@ -27,6 +27,7 @@ const Tile = ({props}) => {
           <div className='content'>
             {props.excerpt}
             <br />
+            <br />
             <p className='subtitle is-6'>Posted by: @{props.author}</p>
             <time dateTime={props.date}>{props.date}</time>
           </div>
