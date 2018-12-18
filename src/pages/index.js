@@ -10,9 +10,9 @@ const IndexPage = ({ data }) => {
 	return (
 		<Layout>
 			<div className="columns is-multiline">
-				{edges.map(edge => {
+				{edges.map((edge, i, arr) => {
 					const { frontmatter } = edge.node;
-					return frontmatter.class === 'blog' ? (<Tile props={frontmatter} />) : null
+					return frontmatter.class === 'blog' ? (<Tile key={`${frontmatter.date}_${i}`} props={frontmatter} />) : null
 				})}
 			</div>
 		</Layout>
@@ -35,6 +35,7 @@ export const query = graphql`
 					id
 					frontmatter {
 						title
+						subtitle
 						date(formatString: "MMMM DD, YYYY")
 						path
 						tags
@@ -42,6 +43,9 @@ export const query = graphql`
 						excerpt
 						subject
 						author
+						cover {
+							publicURL
+						}
 						image {
 							publicURL
 						}

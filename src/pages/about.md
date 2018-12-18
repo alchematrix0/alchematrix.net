@@ -6,8 +6,8 @@ tags: ['coming out', 'sharing', 'vulnerability', 'power', 'warrior', 'masculine'
 excerpt: 'What this space is about as told to friends and family'
 class: 'page'
 author: 'alchematrix0'
+cover: '../images/alchematrix_arrows_bike.jpg'
 ---
-
 ### Friends, family, lend me your ears...
 
 Today marks a big day for me: I present a personal project many years in the making to you, dear family and friends. For years, I got in my own way about sharing who I am with the world, but no longer!

@@ -2,10 +2,12 @@
 path: '/portfolio/md5'
 date: '2019-01-01'
 title: 'MD5'
+subtitle: 'Digital Literacy Advocates'
 subject: 'website'
 class: 'work'
 excerpt: 'MD5: digital literacy advocates. My own website launched in 2017 to promote myself as a consultant in the digital literacy space.'
 author: 'md5'
+cover: './md5-screen.png'
 image: './md5-screen.png'
 ---
 #### MD5 - digital literacy advocates

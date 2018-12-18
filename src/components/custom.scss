@@ -19,6 +19,13 @@ header {
     background-color: #fffc;
   }
 }
+img.coverPhoto {
+  margin: auto;
+  margin-bottom: 2em;
+  &.isNarrow {
+    max-width: 300px;
+  }
+}
 .columns.footer.blogpostFooter {
   background-color: transparent;
   margin-top: 2em;

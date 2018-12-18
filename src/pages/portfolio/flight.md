@@ -2,10 +2,12 @@
 path: '/portfolio/flightofphantoms'
 date: '2019-01-01'
 title: 'Flight of Phantoms'
+subtitle: 'Aerial Photographers'
 subject: 'website and branding'
 class: 'work'
 excerpt: 'Flight of Phantoms is the handle I use as a drone pilot shooting rad climbing footage set to hip hop with a Mavic Pro from DJI'
 author: 'md5'
+cover: './fop-screen.png'
 image: './fop-screen.png'
 ---
 #### Flight of Phantoms - aerial cinematographers
