@@ -1,4 +1,4 @@
-import React, { Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import MailchimpSubscribe from 'react-mailchimp-subscribe'
 const url = 'https://alchematrix.us7.list-manage.com/subscribe/post?u=3e8bbf83c6c989a58748b4a27&amp;id=a2476a44ec'

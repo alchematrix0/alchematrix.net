@@ -6,9 +6,7 @@ import SEO from '../components/seo'
 
 const About = ({ data, pageContext }) => {
   const title = data.markdownRemark.frontmatter.title;
-  const date = data.markdownRemark.frontmatter.date;
   const html = data.markdownRemark.html;
-  const { next, prev } = pageContext;
   return (
     <Layout>
       <SEO title={title} />

@@ -9,6 +9,9 @@ const Template = ({ data, pageContext }) => {
 	const author = data.markdownRemark.frontmatter.author;
 	const html = data.markdownRemark.html;
   const { next, prev } = pageContext;
+	console.dir(pageContext)
+	console.dir(prev)
+	console.dir(next)
 
 	return (
 		<Layout>
