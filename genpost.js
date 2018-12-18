@@ -1,3 +1,6 @@
+// Invocation
+// node genpost.js takes three args: {path-without-slash} {subject} {exceprt or nothing} 
+
 const fs = require('fs');
 const path = require('path');
 let date = new Date()
@@ -38,8 +41,9 @@ createDirectory(directoryPath).then((path) => {
 path: '/${process.argv[2]}'
 date: ${today}
 title: '${process.argv[2].replace('-', ' ').replace('-', ' ').replace('-', ' ').replace('-', ' ')}'
+subject: '${process.argv[3]}'
 tags: ['blog']
-excerpt: ${process.argv[3] || 'The latest blog post is here!'}
+excerpt: ${process.argv[4] || 'The latest blog post is here!'}
 author: 'alchematrix0'
 class: 'blog'
 ---

@@ -24,6 +24,7 @@ class Header extends Component {
         </div>
 
         <div className="navbar-end">
+          <a className="navbar-item" href='/work'>Portfolio</a>
           <a className="navbar-item" href='/about'>About</a>
           <div className="navbar-item">
             <div className="field is-grouped">

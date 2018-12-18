@@ -40,6 +40,7 @@ export const query = graphql`
 						tags
 						class
 						excerpt
+						subject
 						author
 						image {
 							publicURL

@@ -21,6 +21,7 @@ exports.createPages = ({ graphql, actions }) => {
 										tags
 										date
 										excerpt
+										subject
 										class
 										image {
 											publicURL

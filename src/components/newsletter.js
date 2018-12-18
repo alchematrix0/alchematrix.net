@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
+import SignupForm from './signupForm.js'
 import './bulma.scss'
 
 class Newsletter extends Component {
@@ -38,21 +39,14 @@ class Newsletter extends Component {
           </header>
           <section class="modal-card-body">
             <p>Learn the <b>alchemy of the matrix</b></p>
-            <p>The newsletter is a <em>monthly subsciption</em> to the <b>best</b> resources for the spiritual scientist.</p>
-            <p>Sign up below for consistently life altering content that will help you transmute the matrix and access your creative potential as a spiritual being having a human experience</p>
+            <br />
+            <p>The newsletter is a <em>monthly subsciption</em> to the most heartfelt resources for the spiritual scientist, authored by yours truly and perhaps eventually a community of earnest seekers.</p>
+            <br />
+            <p>Sign up below for consistently life altered/ing content that will help you transmute the matrix and access your creative potential as a <b>spiritual being</b> having a <em>human experience</em></p>
+            <footer class="section">
+              <SignupForm />
+            </footer>
           </section>
-          <footer class="modal-card-foot">
-            <form onSubmit={this.handleSubmit}>
-              <div className="field has-addons">
-                <div className="control is-expanded">
-                  <input className="input is-primary" type="text" name="email" onChange={this.handleInput} value={this.state.email} />
-                </div>
-                <div className="control">
-                  <button type="submit" class="button is-info">I'm in</button>
-                </div>
-              </div>
-            </form>
-          </footer>
         </div>
         <button className="modal-close is-large" aria-label="close" onClick={this.props.toggleNewsletter}></button>
       </div>

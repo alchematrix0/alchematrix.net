@@ -20,6 +20,7 @@ const Tile = ({props}) => {
               <p className='title is-4'>
                 <Link to={props.path} style={{ textDecoration: `none`, color: `inherit` }}>{props.title}</Link>
               </p>
+              {props.subject && <p className="subtitle">Series: {props.subject}</p>}
             </div>
           </div>
 

@@ -1,10 +1,12 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout.js'
+import Footer from '../components/blogpostFooter.js'
 
 const Template = ({ data, pageContext }) => {
 	const title = data.markdownRemark.frontmatter.title;
 	const date = data.markdownRemark.frontmatter.date;
+	const author = data.markdownRemark.frontmatter.author;
 	const html = data.markdownRemark.html;
   const { next, prev } = pageContext;
 
@@ -12,29 +14,11 @@ const Template = ({ data, pageContext }) => {
 		<Layout>
 			<h1 className="title">{title}</h1>
       <div>
-        <em>{date}</em>
+        <em>{author} - {date}</em>
       </div>
       <br />
 			<div className="blogpost content" dangerouslySetInnerHTML={{ __html: html }} />
-      <div className="columns">
-	      <div className="column is-9">
-					{prev && (
-						<Link to={prev.frontmatter.path}>
-							<span role="img" aria-label="point-left">👈{'  '}</span>
-							<b>{prev.frontmatter.title}</b>
-						</Link>
-					)}
-				</div>
-	      <div className="column is-3 is-pulled-right">
-					{next && (
-						<Link to={next.frontmatter.path}>
-							<b>{next.frontmatter.title}{' '}</b>
-							<span role="img" aria-label="point-right">👉</span>
-						</Link>
-					)}
-				</div>
-
-			</div>
+      <Footer prev={prev} next={next} />
 		</Layout>
 	);
 };

@@ -1,11 +1,13 @@
 ---
 path: '/mantra-ram'
 date: '2018-12-16'
-title: 'Mantra work: Ram'
-tags: ['mantra', 'chant', 'ram', 'power', 'warrior', 'masculine', 'energy', 'polarity', 'energy']
+title: 'Ram'
+subject: 'Mantra work'
+tags: ['mantra', 'chant', 'ram', 'power', 'warrior', 'masculine', 'energy', 'polarity', 'action', 'key1', 'key4']
 excerpt: 'Using the power of RAM to activate your inner warrior'
 author: 'alchematrix0'
 class: 'blog'
+image: './ra.png'
 ---
 ###### Mantra caveat
 **If you haven't already, it's essential that you first look over my post on Mantra work before proceeding.**

@@ -7,7 +7,7 @@ header {
   flex-wrap: nowrap;
   padding: 1em;
   .logo-header {
-    max-height: 2em;
+    max-height: 3em;
   }
   .social {
     font-size: 1.75em;
@@ -18,4 +18,9 @@ header {
   &.navbar {
     background-color: #fffc;
   }
+}
+.columns.footer.blogpostFooter {
+  background-color: transparent;
+  margin-top: 2em;
+  bottom: 0;
 }
