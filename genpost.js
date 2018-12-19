@@ -1,5 +1,5 @@
 // Invocation
-// node genpost.js takes three args: {path-without-slash} {subject} {exceprt or nothing} 
+// node genpost.js takes three args: {path-without-slash} {subject} {exceprt or nothing}
 
 const fs = require('fs');
 const path = require('path');
@@ -46,6 +46,8 @@ tags: ['blog']
 excerpt: ${process.argv[4] || 'The latest blog post is here!'}
 author: 'alchematrix0'
 class: 'blog'
+cover: './images/crescent-sun.png'
+image: './images/crescent-sun.png'
 ---
 
 ### Friends, family, lend me your ears...`, (err) => {
