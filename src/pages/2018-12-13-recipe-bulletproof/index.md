@@ -2,6 +2,7 @@
 path: '/bulletproof-coffee-recipe'
 date: '2018-11-15'
 title: 'Making the ultimate bullet proof coffee'
+subject: Recipes
 tags: ['recipe', 'coffee', 'routine', 'morning', 'food', 'nutrition']
 excerpt: 'There is no waking without a coffee this good'
 author: 'alchematrix0'
