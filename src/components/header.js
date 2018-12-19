@@ -14,6 +14,19 @@ class Header extends Component {
     }
   }
   toggleNewsletter = () => this.setState({newsletterIsOpen: !this.state.newsletterIsOpen})
+  componentDidMount () {
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          el.classList.toggle('is-active')
+          $target.classList.toggle('is-active')
+        })
+      })
+    }
+  }
   render () {
     return (
       <>
@@ -27,11 +40,11 @@ class Header extends Component {
               />
             </a>
 
-            <a href="/!#" role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <div role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
-            </a>
+            </div>
           </div>
 
           <div id="navbarBasicExample" className="navbar-menu">
@@ -45,7 +58,7 @@ class Header extends Component {
                   <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/alchematrix0" className="button is-light">
                     <span className="icon"><FiInstagram /></span>
                   </a>
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCOFoa06hfQRbIEnDoCPTnwg" className="button is-light">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC2OwcyFl9TA8lYlR4mHRhoQ" className="button is-light">
                     <span className="icon"><FiYoutube /></span>
                   </a>
                   <button className="button is-primary" onClick={this.toggleNewsletter}>
