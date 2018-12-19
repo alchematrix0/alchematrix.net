@@ -12,7 +12,11 @@ const Tile = ({props}) => {
       <div className='card'>
         <div className='card-image'>
           <figure className='image is-4by4'>
-            <Img sizes={props.image ? props.image.childImageSharp.sizes : 'https://bulma.io/images/placeholders/480x480.png'} alt='Placeholder' />
+            {
+              props.image ?
+                (<Img sizes={props.image.childImageSharp.sizes} />) :
+                (<img src='https://bulma.io/images/placeholders/480x480.png' alt='placeholder' />)
+            }
           </figure>
         </div>
         <div className='card-content'>
