@@ -21,13 +21,6 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
 	query HomePageQuery {
-	  allFile(filter: { extension: { eq: "jpg" } }) {
-	    edges {
-	      node {
-	        publicURL
-	      }
-	    }
-	  }
 		allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
 			totalCount
 			edges {
@@ -44,10 +37,18 @@ export const query = graphql`
 						subject
 						author
 						cover {
-							publicURL
+							childImageSharp{
+                    sizes(maxWidth: 600) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
 						}
 						image {
-							publicURL
+							childImageSharp{
+                    sizes(maxWidth: 600) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
 						}
 					}
 				}

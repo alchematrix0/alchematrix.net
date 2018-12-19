@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 // import PropTypes from 'prop-types'
+import Img from 'gatsby-image'
 import React from 'react'
 
 import './bulma.scss'
@@ -11,7 +12,7 @@ const Tile = ({props}) => {
       <div className='card'>
         <div className='card-image'>
           <figure className='image is-4by4'>
-            <img src={props.image ? props.image.publicURL : 'https://bulma.io/images/placeholders/480x480.png'} alt='Placeholder' />
+            <Img sizes={props.image ? props.image.childImageSharp.sizes : 'https://bulma.io/images/placeholders/480x480.png'} alt='Placeholder' />
           </figure>
         </div>
         <div className='card-content'>
@@ -39,4 +40,5 @@ const Tile = ({props}) => {
     </div>
   )
 }
+
 export default Tile;
