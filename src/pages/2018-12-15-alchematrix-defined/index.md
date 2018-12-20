@@ -7,6 +7,7 @@ excerpt: 'The alchemy of matrix is about awakening to the divine in every moment
 author: 'alchematrix0'
 class: 'blog'
 image: './crescent-sun-flat.png'
+cover: './crescent-sun-flat.png'
 ---
 #The Alchemy of the matrix
 
@@ -16,7 +17,7 @@ Alchemy is the science of transmutation of that which is base into that which is
 
 And let's address this word right now, surrender, as it is sure to conjure damsels and what other nonsense. Surrender is the relinquishing of the lesser will for a greater Will and always raises **your** vibration. In turn, your preparedness to channel a very powerful energy is expanded in proportion to your **release**. This preparedness is then your creative power as **The Magi** or **The Magus of Power, Taro Key #1**: to focus and harness the primordial current (Taro Key \#0 : Spirit) that lies in wait on the other side of our letting go.
 
-And this can be as simple as finding humor in the moment! It's about raising **your** vibration. To tell it for reals, I only tell it this way as a result of an experience in the Summer of '18 that left me totally blissed out as a result of putting down a ton of baggage aka BS aka Belief System. It's just one way. And in fact, for those who are more passively inclined, the magic will work the other way and it is their decisive action and will that transmutes their reality. The word we've really been talking about this whole time, is presence.
+And this can be as simple as finding humour in the moment! It's about raising **your** vibration. To tell it for reals, I only tell it this way as a result of an experience in the Summer of '18 that left me totally blissed out as a result of putting down a ton of baggage aka BS aka Belief System. It's just one way. And in fact, for those who are more passively inclined, the magic will work the other way and it is their decisive action and will that transmutes their reality. The word we've really been talking about this whole time, is presence.
 
 #### OK OK, the matrix then
 
@@ -32,4 +33,6 @@ A symbol I created representing the union of opposite. The symbol is the astrono
 
 #### You're doing what now?
 
-Blogging and sharing the path. Making myself available via <alchematrix0@gmail.com> to converse.
+- Blogging on the path. Making myself available via <alchematrix0@gmail.com> to converse.
+- I'm hosting the Moon Show, airing once a month on IGTV [@alchematrix0](https://instagram.com/alchematrix0) discussing astrology in relation to the new and full moons.
+- Publishing a monthly newsletter on the Alchemy of the Matrix.

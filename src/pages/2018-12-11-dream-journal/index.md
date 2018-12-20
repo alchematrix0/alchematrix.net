@@ -8,6 +8,8 @@ image: ./dream_catcher.jpg
 class: 'blog'
 author: 'alchematrix0'
 ---
+## Keeping a Dream Journal
+
 #### A dream journal is like your field notes to the astral dimension.
 
 It's **common knowledge** that everyone dreams every single night, but how many of us actually remember the details just minutes after waiting and have the discipline to jot down some notes? I know I've struggled with this very practice for years. In fact, the only time I really do it, is when I have a dream that appears to laden with meaning, that I can't help but write it down, I feel obligated to my future self to recall this message.

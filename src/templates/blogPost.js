@@ -10,18 +10,9 @@ const Template = ({ data, pageContext }) => {
 	const author = data.markdownRemark.frontmatter.author;
 	const html = data.markdownRemark.html;
   const { next, prev } = pageContext;
-	console.log(data.markdownRemark.frontmatter.class)
 
 	return (
 		<Layout>
-			<h1 className="title">{title}</h1>
-			{subtitle && (<h4 className="subtitle">{subtitle}</h4>)}
-      {data.markdownRemark.frontmatter.class !== 'work' && (
-				<div>
-					<em>{author} - {date}</em>
-				</div>
-			)}
-      <br />
 			{data.markdownRemark.frontmatter.cover && (
 				<img
 					className={`coverPhoto ${data.markdownRemark.frontmatter.class === 'work' ? 'isFull' : 'isNarrow'}`}
@@ -30,6 +21,11 @@ const Template = ({ data, pageContext }) => {
 				/>
 			)}
 			<div className="blogpost content" dangerouslySetInnerHTML={{ __html: html }} />
+			{data.markdownRemark.frontmatter.class !== 'work' && (
+				<div>
+					<em>{author} - {date}</em>
+				</div>
+			)}
       <Footer prev={prev} next={next} />
 		</Layout>
 	);

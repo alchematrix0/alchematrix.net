@@ -9,7 +9,7 @@ author: 'alchematrix0'
 class: 'blog'
 image: './bulletproof.jpg'
 ---
-#### Bulletproof Coffee
+## Making the ultimate Bulletproof Coffee
 
 Anyone who knows me knows that bulletproof coffee is my **favorite** meal of the day. I honestly get so excited to make this coffee _every single day_ and I have it down to an art that travels with me in my truck on road trips, up to mountain passes for that pre dawn fuel and is a staple of home life blender usage, a vast topic unto itself.
 
