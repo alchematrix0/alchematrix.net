@@ -1,5 +1,5 @@
 ---
-path: "/taro-key-1"
+path: /taro-key-1
 date: 2018-12-18
 title: "The Magus of Power"
 subtitle: "Key #1 :: The Magus of Power"

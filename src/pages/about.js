@@ -24,6 +24,9 @@ export const query = graphql`
 				tags
 				excerpt
 				author
+        cover {
+          publicURL
+        }
 				image {
 					publicURL
 				}

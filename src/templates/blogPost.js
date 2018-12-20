@@ -15,7 +15,7 @@ const Template = ({ data, pageContext }) => {
 		<Layout>
 			{data.markdownRemark.frontmatter.cover && (
 				<img
-					className={`coverPhoto ${data.markdownRemark.frontmatter.class === 'work' ? 'isFull' : 'isNarrow'}`}
+					className={`coverPhoto ${data.markdownRemark.frontmatter.class === 'work' || data.markdownRemark.frontmatter.class === 'page' ? 'isFull' : 'isNarrow'}`}
 					src={data.markdownRemark.frontmatter.cover.publicURL}
 					alt={`cover for ${title} blog post`}
 				/>
@@ -38,6 +38,7 @@ export const postQuery = graphql`
 			frontmatter {
 				title
 				subtitle
+				subject
 				date(formatString: "MMMM, DD, YYYY")
 				path
 				tags
