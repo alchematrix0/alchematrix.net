@@ -14,6 +14,5 @@ image: './md5-screen.png'
 
 ###### [View Website](https://desforets.github.io/md5/)
 
-
 This was a web development showcasing a business idea doing consulting work as a digital literacy advocate.
 The idea arose after doing a talk at the Lillooet library that went super well. The website is just a repurposing of that content as a 2 hour package that can be purchased. I also included a pre configured cell phone based on my own custom android phone configuration that features the latest Android experience with absolutely no Google presence via the open source Lineage OS project.
