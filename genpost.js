@@ -36,8 +36,7 @@ const directoryPath = `./src/pages/${today}-${process.argv[2]}`;
 createDirectory(directoryPath).then((path) => {
   console.log(`Successfully created directory: '${path}'`);
   fs.writeFile(`${directoryPath}/index.md`,
-`
----
+`---
 path: '/${process.argv[2]}'
 date: ${today}
 title: '${process.argv[2].replace('-', ' ').replace('-', ' ').replace('-', ' ').replace('-', ' ')}'
