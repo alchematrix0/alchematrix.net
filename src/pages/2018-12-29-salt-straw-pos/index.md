@@ -13,6 +13,6 @@ image: './pos.png'
 
 ### Creating a Point of Salt React app for short order restaurants
 
-We were at Salt & Straw getting Ice Cream in Venice the other day and noticed that everyone in the substantial line up was on their phones perusing the website and deciding, ahead of time, which flavor they wanted. Not only that, but the street was noisy, and I overheard a few parties grumbling about the line and a few more deciding to carry on given the line up (picture getting into a club on St-Laurent boulevard at 12:30 on a Thursday in Montreal then tone it down some). This prompted an idea! Check out the YouTube video below to get the full scoop, or visit <https://pocake-arqqgvjdvy.now.sh/> to try it out for yourself!
+We were at Salt & Straw getting Ice Cream in Venice the other day and noticed that everyone in the substantial line up was on their phones perusing the website and deciding, ahead of time, which flavor they wanted. Not only that, but the street was noisy, and I overheard a few parties grumbling about the line and a few more deciding to carry on given the line up (picture getting into a club on St-Laurent boulevard at 12:30 on a Thursday in Montreal then tone it down some). This prompted an idea! Check out the YouTube video below to get the full scoop, or visit <https://pocake-cfzutmytow.now.sh> to try it out for yourself!
 
 [![POCake Demo](https://i.imgur.com/N7CK5fg.png)](https://youtu.be/nVaUUG39JL0 "POCake Demo")
