@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
           <Header siteTitle={data.site.siteMetadata.title} tagLine={data.site.siteMetadata.tagLine} />
           <div
             style={{
-              margin: '120px auto',
+              margin: '75px auto',
               maxWidth: 960,
               padding: '0px 1.0875rem 1.45rem',
               paddingTop: 0,

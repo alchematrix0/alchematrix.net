@@ -4,7 +4,7 @@ import Layout from '../components/layout.js'
 import Footer from '../components/blogpostFooter.js'
 
 const Template = ({ data, pageContext }) => {
-	const {title, subtitle, date, author } = data.markdownRemark.frontmatter
+	const {title, date, author } = data.markdownRemark.frontmatter
 	const html = data.markdownRemark.html;
   const { next, prev } = pageContext;
 
