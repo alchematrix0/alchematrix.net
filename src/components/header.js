@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import headerLogo from '../images/alchemlogo-3.png'
 import Newsletter from './newsletter'
-import { FiYoutube } from 'react-icons/fi';
 import { FiInstagram } from 'react-icons/fi';
 import './bulma.scss'
 
@@ -52,14 +51,12 @@ class Header extends Component {
             </div>
             <div className="navbar-end">
               <a className="navbar-item" href='/portfolio'>Portfolio</a>
+              <a className="navbar-item" href='/hireme'>Hire Me</a>
               <a className="navbar-item" href='/about'>About</a>
               <div className="navbar-item">
                 <div className="buttons">
                   <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/alchematrix0" className="button is-light">
                     <span className="icon"><FiInstagram /></span>
-                  </a>
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC2OwcyFl9TA8lYlR4mHRhoQ" className="button is-light">
-                    <span className="icon"><FiYoutube /></span>
                   </a>
                   <button className="button is-primary" onClick={this.toggleNewsletter}>
                     <strong>{this.props.tagLine}</strong>
