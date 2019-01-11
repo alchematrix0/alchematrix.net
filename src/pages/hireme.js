@@ -11,7 +11,7 @@ const HireMe = () => {
     {description: "Single Page App w/ Purchases", timeline: "4 weeks", price: "$600", example: "PoCake", link: "https://pocake.alchematrix.net"},
     {description: "Platform Economy App", timeline: "8 weeks", price: "$2,500", example: "Taski", link: "https://www.taskiapp.com"},
     {description: "Education", timeline: "Hourly", price: "$100", example: "MD5", link: "https://desforets.github.io/md5/"},
-    {description: "Existing project (bugs, features, deployment, security)", timeline: "Hourly", price: "$100", example: "JTF Canada Migration", link: "JTFCanada.com"}
+    {description: "Existing project (bugs, features, deployment, security)", timeline: "Hourly", price: "$100", example: "JTF Canada Migration", link: "https://jtfcanada.com"}
   ]
   const TableRow = (props) => (
     <tr>
@@ -22,10 +22,10 @@ const HireMe = () => {
     </tr>
   )
   const testimonials = [
-    {name: "Marianne", org: "LAFS", project: "Agriculture Resource Database", date: "1/10/2018", comment: "Works fast and communicates well. Brought my vision to life accurately and on budget. Definitely goes the extra mile."},
+    {name: "Marianne", org: "LAFS", project: "Farmer Resource Database", date: "1/10/2018", comment: "Works fast and communicates well. Brought my vision to life accurately and on budget. Definitely goes the extra mile."},
     {name: "Toby", org: "Lillooet Library", project: "Digital Literacy Workshop", date: "8/20/2016", comment: "Awesome and informative presentation, clearly delivered and surprisingly fun."},
     {name: "Peter", org: "EarthSun Organics", project: "EarthSun Wholesale Website", date: "1/12/2018", comment: "Got the work done faster than we thought and provided ongoing support at a reasonable rate."},
-    {name: "Rishabh", org: "Taski", project: "Platform Economy Web App", date: "Ongoing", comment: "We could not find a project challenging enough for Alex. Throw anything at him, he'll figure it out!"}
+    {name: "Rishabh", org: "Taski", project: "Platform Economy Web App", date: "Ongoing", comment: "We could not find a project challenging enough for this guy. Throw anything at him, he'll figure it out!"}
   ]
   const Testimonial = (props) => (
     <div className="column is-one-quarter">
@@ -53,7 +53,7 @@ const HireMe = () => {
 		<Layout>
 	    <SEO title="Alchematrix - Hire Me" />
       <h1 className="title is-spaced">Work with me</h1>
-      <h2 className="subtitle is-spaced">Offering a range of web development services to bring your project and vision to life</h2>
+      <h2 className="subtitle is-spaced">Bring your project and vision online FAST without overpaying</h2>
       <table className="table is-fullwidth">
         <thead>
           <tr>

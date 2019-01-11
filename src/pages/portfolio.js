@@ -10,7 +10,7 @@ const Portfolio = ({ data }) => {
 
 	return (
 		<Layout>
-    <SEO title="Alchematrix - porfolio" />
+	    <SEO title="Alchematrix - porfolio" />
 			<div className="columns is-multiline">
 				{edges.map(edge => {
 					const { frontmatter } = edge.node;

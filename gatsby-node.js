@@ -40,14 +40,15 @@ exports.createPages = ({ graphql, actions }) => {
 				const posts = result.data.allMarkdownRemark.edges;
 				posts.forEach(({ node }, index) => {
 					const path = node.frontmatter.path;
-					console.log(path)
+					let samePostsType = posts.filter(p => p.node.frontmatter.class === node.frontmatter.class)
+					index = samePostsType.findIndex(x => x.node.frontmatter.path === node.frontmatter.path)
 					createPage({
 						path,
 						component: blogPostTemplate,
 						context: {
 							pathSlug: path,
-        			prev: index === 0 ? null : posts[index - 1].node,
-        			next: index === posts.length - 1 ? null : posts[index + 1].node
+        			next: index === 0 ? null : samePostsType[index - 1].node,
+        			prev: index === samePostsType.length - 1 ? null : samePostsType[index + 1].node
 						}
 					});
 					resolve();

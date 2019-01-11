@@ -1,18 +1,18 @@
 import { Link } from 'gatsby'
-// import PropTypes from 'prop-types'
 import React from 'react'
 
 import './bulma.scss'
 
 const Tile = ({props}) => {
-  console.dir(props)
   return (
     <div className='column is-4'>
       <div className='card'>
         <div className='card-image'>
-          <figure className='image is-4by4'>
-            <img src={props.image ? props.image.publicURL : 'https://bulma.io/images/placeholders/480x480.png'} alt='Placeholder' />
-          </figure>
+          <Link to={props.path} style={{ textDecoration: `none`, color: `inherit` }}>
+            <figure className='image is-4by4'>
+              <img src={props.image ? props.image.publicURL : 'https://bulma.io/images/placeholders/480x480.png'} alt='Placeholder' />
+            </figure>
+          </Link>
         </div>
         <div className='card-content'>
           <div className='media'>
