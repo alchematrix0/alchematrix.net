@@ -1,0 +1,34 @@
+.social {
+  font-size: 1.75em;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-top: 0.125em;
+}
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  .navbar-burger {
+    margin-top: 10px;
+  }
+}
+.navbar-item img.logo-header {
+  max-height: 3.25rem;
+}
+img.coverPhoto {
+  margin: auto;
+  margin-bottom: 2em;
+  &.isNarrow {
+    max-width: 300px;
+  }
+}
+.columns.footer.blogpostFooter {
+  background-color: transparent;
+  margin-top: 2em;
+  bottom: 0;
+}
+.navbar-menu.is-active .navbar-item {
+  text-align: center;
+  .buttons {
+    justify-content: center;
+  }
+}
