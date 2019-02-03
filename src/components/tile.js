@@ -33,7 +33,7 @@ const Tile = ({props}) => {
             {props.excerpt}
             <br />
             <span className='tags'>
-              {props.tags.map(tag => (<a key={props.date + tag} href='bulma.io'><small>#{tag}</small></a>))}
+              {props.tags.map(tag => (<a key={props.date + tag} href='#!'><small>#{tag}</small></a>))}
             </span>
             <br />
             <p className='subtitle is-6'>Posted by: @{props.author}</p>

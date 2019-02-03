@@ -1,13 +1,12 @@
 ---
 path: '/temptation'
 date: 2019-02-03
-title: Temptation
-subject: "The Luciferic gift"
+title: "Temptation: the luciferic gift"
 tags: ['blog', 'empowerment', 'addiction', 'temptation', 'self', 'realization', 'the work', 'healing']
 excerpt: Working with and understanding temptation and addictions as a means to empowerment
 author: alchematrix0
 class: blog
-image: './images/crescent-sun.png'
+image: './crescent-sun-flat.png'
 ---
 
 # Temptation
