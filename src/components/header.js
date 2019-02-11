@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import headerLogo from '../images/alchemlogo-3.png'
-import Newsletter from './newsletter'
-import { FiInstagram } from 'react-icons/fi';
+import { FiInstagram } from 'react-icons/fi'
 import './bulma.scss'
 
 class Header extends Component {
@@ -58,15 +57,11 @@ class Header extends Component {
                   <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/alchematrix0" className="button is-light">
                     <span className="icon"><FiInstagram /></span>
                   </a>
-                  <button className="button is-primary" onClick={this.toggleNewsletter}>
-                    <strong>{this.props.tagLine}</strong>
-                  </button>
                 </div>
               </div>
             </div>
           </div>
         </nav>
-        <Newsletter isOpen={this.state.newsletterIsOpen} toggleNewsletter={this.toggleNewsletter} />
       </>
     )
   }
