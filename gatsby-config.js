@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Alchematrix',
-    description: 'Free your mind :: the alchemy of the matrix',
+    title: 'Alchematrix :: the alchemy of the matrix',
+    description: 'Free your mind :: the alchemy of the matrix. A blog for modern seekers and adventurers, students of tarot, technology innovators and contemporary spiritual warrios.',
     tagLine: 'Free your mind',
     author: '@alchematrix0',
+    url: `https://alchematrix.net`,
+    keywords: ['alchemy', 'matrix', 'blog', 'archery', 'adventure', 'hiking', 'trip', 'report', 'tarot', 'esoteric', 'wisdom', 'warrior', 'school', 'spiritual', 'scientist', 'recipes', 'knowledge', 'mantra'],
   },
   plugins: [
     'gatsby-plugin-react-helmet',

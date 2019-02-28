@@ -2,14 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import siteImage from '../images/alchemlogo-3.png'
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
       query={detailsQuery}
       render={data => {
-        const metaDescription =
-          description || data.site.siteMetadata.description
+        console.dir(data)
+        const metaDescription = description || data.site.siteMetadata.description
+        keywords = keywords || data.site.siteMetadata.keywords
+        title = title || data.site.siteMetadata.title
         return (
           <Helmet
             htmlAttributes={{
@@ -31,8 +34,16 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                property: 'og:image',
+                content: siteImage,
+              },
+              {
                 property: 'og:type',
                 content: 'website',
+              },
+              {
+                property: 'og:url',
+                content: 'https://alchematrix.net',
               },
               {
                 name: 'twitter:card',
@@ -48,6 +59,18 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: 'twitter:description',
+                content: metaDescription,
+              },
+              {
+                name: 'instagram:creator',
+                content: data.site.siteMetadata.author,
+              },
+              {
+                name: 'instagram:title',
+                content: title,
+              },
+              {
+                name: 'instagram:description',
                 content: metaDescription,
               },
             ]
@@ -90,6 +113,9 @@ const detailsQuery = graphql`
         title
         description
         author
+        tagLine
+        url
+        keywords
       }
     }
   }

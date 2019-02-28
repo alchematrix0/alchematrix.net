@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import SEO from '../components/seo'
 
 import Layout from "../components/layout"
 import WorkTile from "../components/worktile"
@@ -10,7 +9,6 @@ const Portfolio = ({ data }) => {
 
 	return (
 		<Layout>
-	    <SEO title="Alchematrix - porfolio" />
 			<div className="columns is-multiline">
 				{edges.map(edge => {
 					const { frontmatter } = edge.node;

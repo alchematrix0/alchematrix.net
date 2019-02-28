@@ -73,8 +73,8 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: '',
-  tagLine: 'sometag'
+  siteTitle: 'Alchematrix',
+  tagLine: 'Welcome'
 }
 
 export default Header

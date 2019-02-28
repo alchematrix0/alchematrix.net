@@ -1,5 +1,4 @@
 import React from "react"
-import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 const HireMe = () => {
@@ -51,7 +50,6 @@ const HireMe = () => {
   )
 	return (
 		<Layout>
-	    <SEO title="Alchematrix - Hire Me" />
       <h1 className="title is-spaced">Work with me</h1>
       <h2 className="subtitle is-spaced">Bring your project and vision online FAST without overpaying</h2>
       <table className="table is-fullwidth">

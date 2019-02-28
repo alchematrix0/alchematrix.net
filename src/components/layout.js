@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import SEO from './seo.js'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
@@ -19,20 +20,21 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-        <>
-          <Header siteTitle={data.site.siteMetadata.title} tagLine={data.site.siteMetadata.tagLine} />
-          <div
-            style={{
+      <>
+        <SEO />
+        <Header siteTitle={data.site.siteMetadata.title} tagLine={data.site.siteMetadata.tagLine} />
+        <div
+          style={{
               margin: '75px auto',
               maxWidth: 960,
               padding: '0px 1.0875rem 1.45rem',
               paddingTop: 0,
-            }}
-          >
-            {children}
-          </div>
-        </>
-      )
+          }}
+        >
+          {children}
+        </div>
+      </>
+    )
     }
   />
 )
