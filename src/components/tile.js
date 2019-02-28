@@ -6,19 +6,20 @@ import React from 'react'
 import './bulma.scss'
 
 const Tile = ({props}) => {
-  console.dir(props)
   return (
     <div className='column is-4'>
       <div className='card'>
-        <div className='card-image'>
-          <figure className='image is-4by4'>
-            {
-              props.image ?
-                (<Img sizes={props.image.childImageSharp.sizes} />) :
-                (<img src='https://bulma.io/images/placeholders/480x480.png' alt='placeholder' />)
-            }
-          </figure>
-        </div>
+        <Link to={props.path} style={{ textDecoration: `none`, color: `inherit` }}>
+          <div className='card-image'>
+            <figure className='image is-4by4'>
+              {
+                props.image ?
+                  (<Img sizes={props.image.childImageSharp.sizes} />) :
+                  (<img src='https://bulma.io/images/placeholders/480x480.png' alt='placeholder' />)
+              }
+            </figure>
+          </div>
+        </Link>
         <div className='card-content'>
           <div className='media'>
             <div className='media-content'>
