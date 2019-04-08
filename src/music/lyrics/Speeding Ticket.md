@@ -2,7 +2,7 @@
 path: '/music/lyrics/Speeding Ticket.md'
 title: 'Speeding Ticket'
 class: 'lyrics'
-date: '4'
+excerpt: '4'
 ---
 I got a speeding ticket, seems I was going to fast again  
 I ran the red light, I've just had the best day of my life  

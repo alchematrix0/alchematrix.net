@@ -2,7 +2,7 @@
 path: '/music/lyrics/Powerful.md'
 title: 'Powerful'
 class: 'lyrics'
-date: '6'
+excerpt: '6'
 ---
 Oh yeah, we tread lightly  
 And we always always always keep to the shadows  

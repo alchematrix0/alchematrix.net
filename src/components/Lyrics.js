@@ -13,14 +13,14 @@ const Lyrics = () => (
               frontmatter {
                 title
                 path
-                date
+                excerpt
               }
             }
           }
         }
       }
     `}
-    render={data => data.allMarkdownRemark.edges.sort((a, b) => Number(a.node.frontmatter.date) - Number(b.node.frontmatter.date)).map((edge, index) => (
+    render={data => data.allMarkdownRemark.edges.sort((a, b) => Number(a.node.frontmatter.excerpt) - Number(b.node.frontmatter.excerpt)).map((edge, index) => (
       <div id={edge.node.frontmatter.title} className="box content">
         <h4 className="title">{edge.node.frontmatter.title}</h4>
         <div className="" dangerouslySetInnerHTML={{ __html: edge.node.html }} />

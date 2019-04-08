@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import headerLogo from '../images/alchemlogo-3.png'
-import { FiInstagram } from 'react-icons/fi'
+import { FiInstagram, FiHeadphones } from 'react-icons/fi'
 import './bulma.scss'
 
 class Header extends Component {
@@ -56,6 +56,13 @@ class Header extends Component {
                 <div className="buttons">
                   <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/alchematrix0" className="button is-light">
                     <span className="icon"><FiInstagram /></span>
+                  </a>
+                </div>
+              </div>
+              <div className="navbar-item">
+                <div className="buttons">
+                  <a href="/music" className="button is-light">
+                    <span className="icon"><FiHeadphones /></span>
                   </a>
                 </div>
               </div>

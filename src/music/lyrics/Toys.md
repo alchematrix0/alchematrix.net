@@ -2,7 +2,7 @@
 path: '/music/lyrics/Toys.md'
 title: 'Toys'
 class: 'lyrics'
-date: '3'
+excerpt: '3'
 ---
 Little boys, playing with toys called diseases  
 They make their noise and then they all fall to pieces  

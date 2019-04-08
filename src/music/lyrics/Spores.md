@@ -2,7 +2,7 @@
 path: '/music/lyrics/Spores.md'
 title: 'Spores'
 class: 'lyrics'
-date: '5'
+excerpt: '5'
 ---
 Shores suffer spores, a reclamation of the senses  
 Out of body, out of focus, pronounced dead on arrival  
