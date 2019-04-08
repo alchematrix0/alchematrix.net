@@ -16,6 +16,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `tracks`,
+        path: `${__dirname}/src/music`,
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -36,6 +43,13 @@ module.exports = {
   		options: {
   			name: `pages`,
   			path: `${__dirname}/src/pages/`
+  		}
+  	},
+  	{
+  		resolve: `gatsby-source-filesystem`,
+  		options: {
+  			name: `lyrics`,
+  			path: `${__dirname}/src/music/lyrics/`
   		}
   	},
     'gatsby-plugin-sass'
