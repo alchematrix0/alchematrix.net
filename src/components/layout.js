@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <SEO />
+        <SEO title={data.site.siteMetadata.title} />
         <Header siteTitle={data.site.siteMetadata.title} tagLine={data.site.siteMetadata.tagLine} />
         <div
           style={{
