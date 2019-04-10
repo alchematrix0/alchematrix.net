@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Lyrics from "../components/Lyrics"
+import { FiDownload } from 'react-icons/fi'
 
 class Music extends Component {
   constructor(props) {
@@ -22,10 +23,19 @@ class Music extends Component {
           <td>{props.index + 1}</td>
           <td>{props.data.title}</td>
           <td>
-            <audio controls src={`${props.data.file}`}></audio>
+            <audio controls src={`${props.data.file}`}>
+              Cannot play :(
+            </audio>
           </td>
           <td>
             {props.data.title !== 'Tangled' ? <a href={`#${props.data.title}`}>Lyrics</a> : null}
+          </td>
+          <td>
+            <a href={props.data.file} download>
+              <span className="icon">
+                <FiDownload />
+              </span>
+            </a>
           </td>
         </tr>
       )
@@ -40,6 +50,7 @@ class Music extends Component {
               <th>Title</th>
               <th>Play</th>
               <th>Words</th>
+              <th>DL</th>
             </tr>
           </thead>
           <tbody>

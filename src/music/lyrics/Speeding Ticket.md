@@ -14,9 +14,9 @@ I got in an accident, seems I am trapped under your wheel
 I ran screaming for more, seems I've got nothing left to heal  
 
 The sign said stop but his heart said go, go  
-Now you're like a cop, a cop, a cop. Just letting me know  
+Now you're like a cop. Just letting me know  
 
 _Je sais que je t'aimerai toujours ma chère_  
 _Je me suis oublié j'ai tant voulu plaire_  
-_Aucun mépris mais la je me sense verre_  
-_Protège mon esprit, c'est pas to affaire_  
+_Aucun mépris mais la je me sens vert_  
+_Protège mon esprit, c'est pas ton affaire_  
