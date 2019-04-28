@@ -23,6 +23,7 @@ exports.createPages = ({ graphql, actions }) => {
 										excerpt
 										subject
 										class
+										coverStyle
 										image {
 											publicURL
 										}
