@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Lyrics from "../components/Lyrics"
-import { FiDownload } from 'react-icons/fi'
+import { FiDownload } from "react-icons/fi"
 
 class Music extends Component {
   constructor(props) {
