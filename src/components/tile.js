@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
-// import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import React from 'react'
+import defaultImage from '../images/crescent-sun.png'
 
 import './bulma.scss'
 
@@ -15,7 +15,8 @@ const Tile = ({props}) => {
               {
                 props.image ?
                   (<Img sizes={props.image.childImageSharp.sizes} />) :
-                  (<img src='https://bulma.io/images/placeholders/480x480.png' alt='placeholder' />)
+                  (<img src={defaultImage} alt='placeholder' />)
+                  // (<img src='https://bulma.io/images/placeholders/480x480.png' alt='placeholder' />)
               }
             </figure>
           </div>
