@@ -3,7 +3,7 @@ path: '/Be Do Have'
 date: 2019-06-23
 title: 'Be Do Have'
 subject: 'Jaña'
-tags: ['blog']
+tags: ['jana', 'spirit', 'consciousness', 'reading', 'Tao', 'ConversationsWithGod']
 excerpt: Reversing the flow of consciousness, inward and upward.
 author: 'alchematrix0'
 class: 'blog'

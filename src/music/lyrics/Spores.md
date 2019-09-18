@@ -14,8 +14,8 @@ Hold the phone, hold me
 
 There are 50 billion people but I know just one of them  
 Watch the movies sip on Kool-aid signing we have arrived!  
-If I stopped then I could listen and I would hear what I thought for hours  
-Big spoons, a bigger cake, someone made sure we survived  
+If I stopped, and listened I would hear your thought for hours  
+Big spoons, a bigger cake, someone made sure we'd survive
 
 Oh it's so trivial I'm bursting with voyeuristic disbelief  
 Hold the phone, hold me  

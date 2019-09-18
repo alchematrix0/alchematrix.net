@@ -23,7 +23,7 @@ Oh we will grow, indeed and I, trust the journey
 Never leave it  
 Never leave that space  
 Never leave it  
-Don't ever leave your heart  
+Don't you ever leave your heart  
 Just hold it right there  
 Centered and in Grace  
 I'll be right there  
