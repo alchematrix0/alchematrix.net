@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Alchematrix",
+  "description": "Alchematrix home page -- The Alchemy of the Matrix",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alchematrix0 <alchematrix0@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.2",
     "gatsby": "^2.0.53",
@@ -41,6 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/alchematrix0/alchematrix.net"
   }
 }

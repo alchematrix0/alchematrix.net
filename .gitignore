@@ -1,2 +1,5 @@
 node_modules
 .DS_store
+src/archive/
+genpost.js
+scratchPad.js
