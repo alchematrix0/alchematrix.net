@@ -22,7 +22,7 @@ The trail through this area was built by the Western Canada Wilderness Committee
 
 The mechanics of how our group of 7 was swiftly reduced to 4 on the evening before our departure hinge on a fuzzy weather forecast and a willful Land Cruiser rolling itself into a ditch at a gas station.
 
-Undaunted, our starting lineup of Peter, Lindsay, Michel and Freya packed in to a friends very much 2WD courtesy car after depositing a rugged 4WD option at the Meager Creek trail head. Quickly, it was clear our approach beta of the Squamish Valley road being 2WD friendly was a ghastly sandbag. At km 44 7pm on July 2nd, we encountered a sizable wash out and opted to make a fire, eat our trail-head dinner, settle in for the night and an extra hike the following morning despite some alarm bells going off internally. This is probably where bad beta salvaged the trip. We imagined the wash out added up to 20km to the hike, maybe more like 10-15, we hopefully bandied. The following day, our ride peeled out at 630am and we got our start shortly after. KM 0, the start of the Elaho-Meager trail, was attained some 10 hours of logging road hiking later at KM 74; it took us nearly all day to even get on the map!
+Undaunted, our starting lineup of Peter, Lindsay, Michel and Freya packed in to a friends very much 2WD courtesy car after depositing a rugged 4WD option at the Meager Creek trail head. Quickly, it was clear our approach beta of the Squamish Valley road being 2WD friendly was a ghastly sandbag. At km 44 7pm on July 2nd, we encountered a sizeable wash out and opted to make a fire, eat our trail-head dinner, settle in for the night and an extra hike the following morning despite some alarm bells going off internally. This is probably where bad beta salvaged the trip. We imagined the wash out added up to 20km to the hike, maybe more like 10-15, we hopefully bandied. The following day, our ride peeled out at 630am and we got our start shortly after. KM 0, the start of the Elaho-Meager trail, was attained some 10 hours of logging road hiking later at KM 74; it took us nearly all day to even get on the map!
 
 ![](https://cdn-images-1.medium.com/max/600/1*_9D_HcKPFYsbHCdZ9ifjfA.jpeg)
 
@@ -55,7 +55,7 @@ The rest of our approach to Meager Creek was pretty prosaic and the 4 hour hike 
 
 ![](https://cdn-images-1.medium.com/max/600/1*sJIYd6mtu7ogxbIBzJqCWg.jpeg)
 > Lindsay and travel companion Meager at the Meager creek hotsprings main pool
->
+
 and on July 7th, after eating all remaining provisions save some dried mango, we arrived at our vehicle around 1pm, extremely stoked on our successful crossing and ravenous for some Mile One Eatery fare.
 
 We weren’t in the clear yet, however! Not 2km down the logging road we encountered a locked gate with a note, and a phone number… 60km out from cell service, this seemed a joke. We set back up the logging road seeking some loggers and nearly had a head on collision with them as they descended.

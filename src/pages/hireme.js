@@ -27,7 +27,7 @@ const HireMe = () => {
     { name: "Peter", org: "EarthSun", project: "Wholesale E-commerce", date: "1/12/2017", comment: "Got the work done faster than we thought and provided ongoing support at a reasonable rate." },
     { name: "Marianne", org: "LAFS", project: "Farmer Resource Database", date: "1/6/2018", comment: "Works fast and communicates well. Brought my vision to life accurately and on budget. Definitely goes the extra mile." },
     { name: "Rishabh", org: "Taski", project: "Platform Economy Web App", date: "Ongoing", comment: "We could not find a project challenging enough for this guy. Throw anything at him, he'll figure it out!" },
-    { name: "Seb", org: "Ora Organic", project: "Referral Program", date: "1/03/2019", comment: "Highly skilled, incredibly responsive, worked quickly, precisely, and very independently. A pleasure to work with; would recommend him for any role with the technical or non-technical side of the business. "}
+    { name: "Seb", org: "Ora Organic", project: "Referral Program", date: "1/03/2019", comment: "Highly skilled, incredibly responsive, worked quickly, precisely, and very independently. A pleasure to work with; would recommend him for any role with the technical or non-technical side of the business." }
   ]
   const Testimonial = ({ testimonial }) => (
     <div className={`column ${testimonial.name === "Seb" ? "is-full" : "is-half"}`}>

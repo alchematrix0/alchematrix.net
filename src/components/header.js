@@ -46,8 +46,7 @@ class Header extends Component {
           </div>
 
           <div id="navbarBasicExample" className="navbar-menu">
-            <div className="navbar-start">
-            </div>
+            <div className="navbar-start"></div>
             <div className="navbar-end">
               <a className="navbar-item" href='/portfolio'>Portfolio</a>
               <a className="navbar-item" href='/hireme'>Hire Me</a>

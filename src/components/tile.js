@@ -5,7 +5,7 @@ import defaultImage from '../images/crescent-sun.png'
 
 import './bulma.scss'
 
-const Tile = ({props}) => {
+const Tile = ({ props }) => {
   return (
     <div className='column is-4'>
       <div className='card'>
@@ -13,10 +13,9 @@ const Tile = ({props}) => {
           <div className='card-image'>
             <figure className='image is-4by4'>
               {
-                props.image ?
+                props.image && props.image.childImageSharp ?
                   (<Img sizes={props.image.childImageSharp.sizes} />) :
                   (<img src={defaultImage} alt='placeholder' />)
-                  // (<img src='https://bulma.io/images/placeholders/480x480.png' alt='placeholder' />)
               }
             </figure>
           </div>
